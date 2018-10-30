@@ -4,7 +4,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 
 //@RequestScoped
-@Path("prva")
+@Path("prvaTest")
 public class prvaApi {
     @GET
     @Produces("text/plain")
