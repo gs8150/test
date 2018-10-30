@@ -20,8 +20,7 @@ env:
 script:
   - mvn clean package -U
   - cd prva
-  - docker build ./ "$DOCKER_IMAGE" -t
-
+  - docker build ./ -t "$DOCKER_IMAGE"
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-stdin
   - docker push "$DOCKER_REPO"
