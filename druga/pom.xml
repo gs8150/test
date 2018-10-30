@@ -12,8 +12,14 @@
     <artifactId>druga</artifactId>
     <packaging>pom</packaging>
 
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <kumuluzee.version>3.0.0</kumuluzee.version>
+    </properties>
+
     <modules>
-        <module>api</module>
         <module>api</module>
     </modules>
 

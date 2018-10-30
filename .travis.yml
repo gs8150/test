@@ -17,6 +17,9 @@ script:
   - mvn clean package -U
   - cd prva
   - docker build -t gs8150/prva:latest .
+  - cd ../druga/
+  - docker build -t gs8150/druga:latest .
 after_success:
   - docker login -u="$ACCOUNT" -p="$PASSWORD"
   - docker push gs8150/prva:latest
+  - docker push gs8150/druga:latest
