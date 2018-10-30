@@ -4,6 +4,6 @@ import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
 //@RegisterService
-@ApplicationPath("v1")
+@ApplicationPath("v2")
 public class drugaApplication {
 }
