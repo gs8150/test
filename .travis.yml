@@ -14,7 +14,8 @@ cache:
   - $HOME/.m2
 
 env:
-  - DOCKER_IMAGE=gs8150/prva:0.3
+  - DOCKER_IMAGE=gs8150/prva:latest
+  - DOCKER_REPO=gs8150/test
 
 script:
   - mvn clean package -U
@@ -22,5 +23,5 @@ script:
   - docker build -t "$DOCKER_IMAGE" .
 
 after_success:
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push "$DOCKER_IMAGE"
+  - echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-stdin
+  - docker push "$DOCKER_REPO"
