@@ -16,7 +16,7 @@ cache:
 script:
   - mvn clean package -U
   - cd prva
-  - docker build -t gs8150/test:latest .
+  - docker build -t gs8150/prva:latest .
 after_success:
   - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-  - docker push gs8150/test:latest
+  - docker push gs8150/prva:latest
