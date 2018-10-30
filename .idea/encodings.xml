@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/druga" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/prva" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/prva/api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/prva/model" charset="UTF-8" />
