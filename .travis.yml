@@ -13,14 +13,10 @@ cache:
   directories:
   - $HOME/.m2
 
-env:
-  - DOCKER_IMAGE=gs8150/prva:latest
-  - DOCKER_REPO=gs8150/test
-
 script:
   - mvn clean package -U
   - cd prva
-  - docker build ./ -t "$DOCKER_IMAGE"
+  - docker build -t gs8150/prva:latest .
 after_success:
-  - echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-stdin
-  - docker push "$DOCKER_REPO"
+  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker push gs8150/prva:latest
