@@ -18,5 +18,5 @@ script:
   - cd prva
   - docker build -t gs8150/prva:latest .
 after_success:
-  - docker login --username "$ACCOUNT" -password "$PASSWORD"
+  - docker login -u="$ACCOUNT" -p="$PASSWORD"
   - docker push gs8150/prva:latest
