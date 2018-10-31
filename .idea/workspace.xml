@@ -3,15 +3,79 @@
   <component name="ChangeListManager">
     <list default="true" id="422d59bf-3a92-426e-9e06-eb7008d94346" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druga/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/druga/api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/druga/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/druga/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/si/fri/rso/projekt/prva/api/v1/prvaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/prva/api/target/classes/si/fri/rso/projekt/prva/api/v1/prvaApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prva/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/prva/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prva/model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/prva/model/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prva/model/target/model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/prva/model/target/model-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/com/kumuluz/ee/loader/EeBootLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/com/kumuluz/ee/loader/EeClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/com/kumuluz/ee/loader/exception/EeClassLoaderException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/com/kumuluz/ee/loader/jar/FileInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/com/kumuluz/ee/loader/jar/JarEntryInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/com/kumuluz/ee/loader/jar/JarFileInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/HikariCP-2.7.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/alpn-api-1.1.3.v20160715.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/aopalliance-repackaged-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/asm-6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/asm-analysis-6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/asm-commons-6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/asm-tree-6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/hk2-api-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/hk2-locator-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/hk2-utils-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/http2-client-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/http2-common-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/http2-hpack-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/http2-http-client-transport-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/http2-server-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jackson-annotations-2.8.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jackson-core-2.8.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jackson-databind-2.8.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jackson-jaxrs-base-2.8.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jackson-jaxrs-json-provider-2.8.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jackson-module-jaxb-annotations-2.8.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/javassist-3.23.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/javax.transaction-api-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/javax.ws.rs-api-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jersey-client-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jersey-common-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jersey-container-servlet-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jersey-container-servlet-core-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jersey-entity-filtering-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jersey-hk2-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jersey-jetty-connector-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jersey-media-jaxb-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jersey-media-json-jackson-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jersey-media-sse-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jersey-server-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-alpn-client-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-alpn-openjdk8-client-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-alpn-openjdk8-server-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-alpn-server-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-annotations-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-client-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-http-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-io-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-jndi-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-plus-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-security-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-server-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-servlet-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-util-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-webapp-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/jetty-xml-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/kumuluzee-common-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/kumuluzee-core-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/kumuluzee-jax-rs-jersey-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/kumuluzee-servlet-jetty-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/osgi-resource-locator-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/snakeyaml-1.18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/prva/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prva/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +105,7 @@
         <counts>
           <entry key="Dockerfile" value="2" />
           <entry key="java" value="8" />
-          <entry key="xml" value="9" />
+          <entry key="xml" value="10" />
           <entry key="yml" value="5" />
         </counts>
       </usages-collector>
@@ -49,25 +113,25 @@
         <counts>
           <entry key="Dockerfile" value="2" />
           <entry key="JAVA" value="8" />
-          <entry key="XML" value="9" />
+          <entry key="XML" value="10" />
           <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="25" />
-          <entry key="java" value="294" />
+          <entry key="java" value="303" />
           <entry key="txt" value="187" />
-          <entry key="xml" value="103" />
+          <entry key="xml" value="108" />
           <entry key="yml" value="285" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="25" />
-          <entry key="JAVA" value="294" />
+          <entry key="JAVA" value="303" />
           <entry key="PLAIN_TEXT" value="187" />
-          <entry key="XML" value="103" />
+          <entry key="XML" value="108" />
           <entry key="YAML" value="285" />
         </counts>
       </usages-collector>
@@ -78,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/druga/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="301">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -126,8 +190,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#399#400#0" expanded="true" />
@@ -166,8 +230,8 @@
         <option value="$PROJECT_DIR$/prva/api/src/main/java/si/fri/rso/projekt/prva/api/v1/prvaApplication.java" />
         <option value="$PROJECT_DIR$/prva/api/src/main/resources/config.yml" />
         <option value="$PROJECT_DIR$/druga/api/src/main/resources/config.yml" />
-        <option value="$PROJECT_DIR$/druga/pom.xml" />
         <option value="$PROJECT_DIR$/druga/api/pom.xml" />
+        <option value="$PROJECT_DIR$/druga/pom.xml" />
         <option value="$PROJECT_DIR$/prva/pom.xml" />
         <option value="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java" />
       </list>
@@ -335,7 +399,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541020854859" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541021477866" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/prva/api/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/druga" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -369,7 +433,7 @@
       <updated>1540916853948</updated>
       <workItem from="1540916856865" duration="9752000" />
       <workItem from="1540927501922" duration="6565000" />
-      <workItem from="1540993238869" duration="7309000" />
+      <workItem from="1540993238869" duration="7932000" />
     </task>
     <task id="LOCAL-00001" summary="commit &amp; update via intelliJ IDEA">
       <created>1540919612266</created>
@@ -560,11 +624,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541018024315</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added Discovery support using Etcd">
+      <created>1541020913634</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1541020913634</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23626000" />
+    <option name="totallyTimeSpent" value="24249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,7 +650,7 @@
     <frame x="84" y="24" width="1698" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -593,7 +664,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32977462" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.46500593" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.46500593" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32938388" />
@@ -697,24 +768,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prva/pom.xml">
+    <entry file="file://$PROJECT_DIR$/druga/api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="442">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/druga/api/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/druga/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="301">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/druga/api/pom.xml">
+    <entry file="file://$PROJECT_DIR$/prva/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        <state relative-caret-position="199">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -728,17 +806,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/druga/api/src/main/resources/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="153">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#399#400#0" expanded="true" />
