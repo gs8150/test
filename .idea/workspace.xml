@@ -4,9 +4,10 @@
     <list default="true" id="422d59bf-3a92-426e-9e06-eb7008d94346" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/druga/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/druga/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/drugaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/drugaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prva/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/prva/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/META-INF/kumuluzee/boot-loader.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/prva/model/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/model/target/model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/prva/model/target/model-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/prva/target/" />
@@ -49,7 +50,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="22" />
+          <entry key="Dockerfile" value="24" />
           <entry key="java" value="235" />
           <entry key="txt" value="146" />
           <entry key="xml" value="96" />
@@ -58,7 +59,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dockerfile" value="22" />
+          <entry key="Dockerfile" value="24" />
           <entry key="JAVA" value="235" />
           <entry key="PLAIN_TEXT" value="146" />
           <entry key="XML" value="96" />
@@ -296,7 +297,7 @@
       <updated>1540916853948</updated>
       <workItem from="1540916856865" duration="9752000" />
       <workItem from="1540927501922" duration="6565000" />
-      <workItem from="1540993238869" duration="1600000" />
+      <workItem from="1540993238869" duration="1972000" />
     </task>
     <task id="LOCAL-00001" summary="commit &amp; update via intelliJ IDEA">
       <created>1540919612266</created>
@@ -452,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540997232730</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Module druga added to TravisCL">
+      <created>1540998025375</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1540998025375</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17917000" />
+    <option name="totallyTimeSpent" value="18289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,8 +476,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="24" width="1698" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="84" y="24" width="1698" height="1000" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

@@ -5,5 +5,6 @@ import javax.ws.rs.core.Application;
 
 //@RegisterService
 @ApplicationPath("v1")
-public class drugaApplication {
+
+public class drugaApplication extends Application {
 }
