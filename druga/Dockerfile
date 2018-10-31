@@ -6,6 +6,6 @@ WORKDIR /app
 
 ADD ./api/target/druga-api-1.0-SNAPSHOT.jar /app
 
-EXPOSE 8085
+EXPOSE 8080
 
 CMD java -jar druga-api-1.0-SNAPSHOT.jar
