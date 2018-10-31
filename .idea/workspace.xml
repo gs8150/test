@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="422d59bf-3a92-426e-9e06-eb7008d94346" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druga/api/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/druga/api/src/main/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prva/api/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/prva/api/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/druga/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/druga/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/druga/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/druga/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/prva/api/target/api-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/classes/si/fri/rso/projekt/prva/api/v1/prvaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/prva/api/target/classes/si/fri/rso/projekt/prva/api/v1/prvaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/prva/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/prva/model/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/model/target/model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/prva/model/target/model-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prva/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prva/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/prva/target/" />
@@ -32,35 +40,35 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="2" />
-          <entry key="java" value="7" />
-          <entry key="xml" value="8" />
-          <entry key="yml" value="4" />
+          <entry key="java" value="8" />
+          <entry key="xml" value="9" />
+          <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="2" />
-          <entry key="JAVA" value="7" />
-          <entry key="XML" value="8" />
-          <entry key="YAML" value="4" />
+          <entry key="JAVA" value="8" />
+          <entry key="XML" value="9" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="25" />
-          <entry key="java" value="258" />
-          <entry key="txt" value="146" />
-          <entry key="xml" value="96" />
-          <entry key="yml" value="274" />
+          <entry key="java" value="294" />
+          <entry key="txt" value="187" />
+          <entry key="xml" value="103" />
+          <entry key="yml" value="285" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="25" />
-          <entry key="JAVA" value="258" />
-          <entry key="PLAIN_TEXT" value="146" />
-          <entry key="XML" value="96" />
-          <entry key="YAML" value="274" />
+          <entry key="JAVA" value="294" />
+          <entry key="PLAIN_TEXT" value="187" />
+          <entry key="XML" value="103" />
+          <entry key="YAML" value="285" />
         </counts>
       </usages-collector>
     </session>
@@ -70,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/druga/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -79,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/druga/api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            <state relative-caret-position="442">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -98,15 +106,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prva/api/src/main/java/si/fri/rso/projekt/prva/api/v1/prvaApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/druga/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -115,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/druga/api/src/main/resources/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -124,11 +123,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prva/api/src/main/resources/config.yml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="221">
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,19 +157,19 @@
         <option value="$PROJECT_DIR$/prva/api/src/main/java/prvaApplication.java" />
         <option value="$PROJECT_DIR$/prva/api/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/prva/pom.xml" />
         <option value="$PROJECT_DIR$/prva/api/src/main/java/si/fri/rso/projekt/prva/api/v1/resources/prvaApi.java" />
         <option value="$PROJECT_DIR$/druga/api/src/main/java/drugaApplication.java" />
-        <option value="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/druga/pom.xml" />
         <option value="$PROJECT_DIR$/prva/Dockerfile" />
         <option value="$PROJECT_DIR$/druga/Dockerfile" />
-        <option value="$PROJECT_DIR$/druga/api/pom.xml" />
         <option value="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/drugaApplication.java" />
         <option value="$PROJECT_DIR$/prva/api/src/main/java/si/fri/rso/projekt/prva/api/v1/prvaApplication.java" />
         <option value="$PROJECT_DIR$/prva/api/src/main/resources/config.yml" />
         <option value="$PROJECT_DIR$/druga/api/src/main/resources/config.yml" />
+        <option value="$PROJECT_DIR$/druga/pom.xml" />
+        <option value="$PROJECT_DIR$/druga/api/pom.xml" />
+        <option value="$PROJECT_DIR$/prva/pom.xml" />
+        <option value="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java" />
       </list>
     </option>
   </component>
@@ -329,7 +335,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541017992796" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541020854859" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/prva/api/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/druga" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -363,7 +369,7 @@
       <updated>1540916853948</updated>
       <workItem from="1540916856865" duration="9752000" />
       <workItem from="1540927501922" duration="6565000" />
-      <workItem from="1540993238869" duration="4450000" />
+      <workItem from="1540993238869" duration="7309000" />
     </task>
     <task id="LOCAL-00001" summary="commit &amp; update via intelliJ IDEA">
       <created>1540919612266</created>
@@ -547,11 +553,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541015776124</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added Discovery support using Etcd">
+      <created>1541018024315</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1541018024315</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20767000" />
+    <option name="totallyTimeSpent" value="23626000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,7 +593,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32977462" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.46500593" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.46500593" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32938388" />
@@ -612,7 +625,8 @@
     <MESSAGE value="Fixed args for TravisCI" />
     <MESSAGE value="Added second module" />
     <MESSAGE value="Module druga added to TravisCL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module druga added to TravisCL" />
+    <MESSAGE value="Added Discovery support using Etcd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Discovery support using Etcd" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/prva/model/pom.xml">
@@ -626,13 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prva/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -662,34 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/druga/api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/drugaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prva/api/src/main/java/si/fri/rso/projekt/prva/api/v1/prvaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -704,10 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/druga/pom.xml">
+    <entry file="file://$PROJECT_DIR$/prva/api/src/main/resources/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -718,10 +697,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prva/api/src/main/resources/config.yml">
+    <entry file="file://$PROJECT_DIR$/prva/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/druga/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="38" />
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/druga/api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/drugaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -729,6 +732,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
