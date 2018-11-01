@@ -43,7 +43,8 @@ public class drugaApi {
             //        .request().get(new GenericType<String>(){});
             return httpClient
                     .target("http://localhost:8080/v1/prvaTest/discovery")
-                    .request(MediaType.TEXT_PLAIN).toString();
+                    .request(MediaType.TEXT_PLAIN)
+                    .get().toString();  //vrne org.glassfish.jersey.client.JerseyInvocation$Builder@2c3d48c7
         }
         catch (WebApplicationException | ProcessingException e) {
             //return
