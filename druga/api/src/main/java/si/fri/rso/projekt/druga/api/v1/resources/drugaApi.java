@@ -39,7 +39,16 @@ public class drugaApi {
                     });
         }
         catch (WebApplicationException | ProcessingException e) {
+            //return
             throw new InternalServerErrorException(e);
         }
+    }
+
+    @GET
+    @Path("url2")
+    @Produces("text/plain")
+    public String test2() {
+        return "dela!";
+
     }
 }
