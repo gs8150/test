@@ -53,8 +53,8 @@ public class drugaApi {
                     });  //vrne org.glassfish.jersey.client.JerseyInvocation$Builder@2c3d48c7   */
 
             return httpClient
-                    .target("http://localhost:8080/v1/drugaTest/discovery")
-                    .request(MediaType.TEXT_PLAIN)
+                    .target("http://localhost:8080/v1/prvaTest/discovery")
+                    .request()
                     .get(String.class);
         }
         catch (WebApplicationException | ProcessingException e) {
@@ -66,7 +66,6 @@ public class drugaApi {
 
     @GET
     @Path("url2")
-    @Produces("text/plain")
     public String test2() {
         return "dela!";
 
