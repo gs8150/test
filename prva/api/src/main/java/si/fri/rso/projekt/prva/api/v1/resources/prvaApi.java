@@ -21,7 +21,6 @@ public class prvaApi {
 
     @GET
     @Path("discovery")
-    @Produces("text/plain")
     public String disc() {
         return "Hello from module PRVA!";
     }
