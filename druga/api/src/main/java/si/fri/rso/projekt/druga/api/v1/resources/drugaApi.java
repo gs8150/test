@@ -34,7 +34,7 @@ public class drugaApi {
     public String test() {
         try {
             return httpClient
-                    .target("http://localhost:8080/v1/prvaTest/discovery")
+                    .target("localhost:8080/v1/prvaTest/discovery")
                     .request().get(new GenericType<String>() {
                     });
         }
