@@ -29,6 +29,7 @@ public class drugaApi {
 
     @GET
     @Path("url")
+    @Produces("text/plain")
     public String test() {
         try {
             return httpClient
