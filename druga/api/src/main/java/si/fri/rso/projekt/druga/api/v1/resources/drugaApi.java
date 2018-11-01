@@ -15,6 +15,7 @@ import javax.ws.rs.core.Response;
 import java.util.Optional;
 
 
+@RequestScoped
 @Path("drugaTest")
 public class drugaApi {
 
