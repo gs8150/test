@@ -84,7 +84,7 @@ public class drugaApi {
 
 
             } catch (IOException e) {
-                e.printStackTrace();
+                throw new InternalServerErrorException(e.getMessage());
             }
 
             return content.toString();
@@ -94,7 +94,7 @@ public class drugaApi {
         catch (Exception e) {
             //return
             //return "neki še ni ok!!!";
-            throw new InternalServerErrorException(e);
+            throw new InternalServerErrorException(e.getMessage());
         }
     }
 
