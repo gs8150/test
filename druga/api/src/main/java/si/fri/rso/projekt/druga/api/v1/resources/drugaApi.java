@@ -14,6 +14,14 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.ProtocolException;
+import java.net.URL;
 import java.util.Optional;
 
 @Path("drugaTest")
@@ -50,12 +58,39 @@ public class drugaApi {
 
                     });  //vrne org.glassfish.jersey.client.JerseyInvocation$Builder@2c3d48c7   */
 
-            return httpClient
-                    .target("http://localhost:8080/v1/prvaTest/discovery")
-                    .request(MediaType.TEXT_PLAIN)
-                    .get(String.class);
+            //return httpClient
+            //        .target("http://localhost:8080/v1/prvaTest/discovery")
+            //        .request(MediaType.TEXT_PLAIN)
+            //        .get(String.class);
+
+            URL myurl = new URL("http://localhost:8080/v1/prvaTest/discovery\"");
+            HttpURLConnection con = (HttpURLConnection) myurl.openConnection();
+
+            con.setRequestMethod("GET");
+
+            StringBuilder content = new StringBuilder();
+
+            try (BufferedReader in = new BufferedReader(
+                    new InputStreamReader(con.getInputStream()))) {
+
+                String line;
+                content = new StringBuilder();
+
+                while ((line = in.readLine()) != null) {
+                    content.append(line);
+                    content.append(System.lineSeparator());
+                }
+
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            return content.toString();
+
         }
-        catch (WebApplicationException | ProcessingException e) {
+        //catch (WebApplicationException | ProcessingException  | Exception e) {
+        catch (Exception e) {
             //return
             //return "neki še ni ok!!!";
             throw new InternalServerErrorException(e);
