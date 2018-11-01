@@ -43,7 +43,7 @@ public class drugaApi {
             //        .request().get(new GenericType<String>(){});
             return httpClient
                     .target("http://localhost:8080/v1/prvaTest/discovery")
-                    .request().toString();
+                    .request(MediaType.TEXT_PLAIN).toString();
         }
         catch (WebApplicationException | ProcessingException e) {
             //return
