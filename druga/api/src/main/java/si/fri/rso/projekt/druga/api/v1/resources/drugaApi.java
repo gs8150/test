@@ -3,6 +3,7 @@ package si.fri.rso.projekt.druga.api.v1.resources;
 //import com.kumuluz.ee.discovery.annotations.DiscoverService;
 import org.glassfish.jersey.process.internal.RequestScoped;
 
+import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 import javax.inject.Provider;
 import javax.ws.rs.*;
@@ -21,6 +22,10 @@ public class drugaApi {
 
     private Client httpClient;
 
+    @PostConstruct
+    private void init() {
+        httpClient = ClientBuilder.newClient();
+    }
 
     @GET
     @Produces("text/plain")
@@ -33,11 +38,12 @@ public class drugaApi {
     @Produces("text/plain")
     public String test() {
         try {
-            httpClient = ClientBuilder.newClient();
+            //return httpClient
+            //        .target("http://localhost:8080/v1/prvaTest/discovery")
+            //        .request().get(new GenericType<String>(){});
             return httpClient
-                    .target("localhost:8080/v1/prvaTest/discovery")
-                    .request().get(new GenericType<String>() {
-                    });
+                    .target("http://localhost:8080/v1/prvaTest/discovery")
+                    .request().toString();
         }
         catch (WebApplicationException | ProcessingException e) {
             //return
