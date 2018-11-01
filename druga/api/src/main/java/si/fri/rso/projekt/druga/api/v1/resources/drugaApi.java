@@ -63,7 +63,7 @@ public class drugaApi {
             //        .request(MediaType.TEXT_PLAIN)
             //        .get(String.class);
 
-            URL myurl = new URL("http://localhost:8080/v1/prvaTest/discovery");
+            URL myurl = new URL("http://localhost:8080/v1/prvaTest");
             HttpURLConnection con = (HttpURLConnection) myurl.openConnection();
 
             con.setRequestMethod("GET");
