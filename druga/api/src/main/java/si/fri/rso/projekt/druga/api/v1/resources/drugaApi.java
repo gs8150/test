@@ -41,7 +41,7 @@ public class drugaApi {
         }
         catch (WebApplicationException | ProcessingException e) {
             //return
-            return "neki še ni ok!";
+            return "neki še ni ok!!!";
             //throw new InternalServerErrorException(e);
         }
     }
