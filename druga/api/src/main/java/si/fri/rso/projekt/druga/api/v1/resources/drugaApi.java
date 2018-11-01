@@ -19,7 +19,7 @@ import java.util.Optional;
 @Path("drugaTest")
 public class drugaApi {
 
-    private Client httpClient = ClientBuilder.newClient();
+    private Client httpClient;
 
 
     @GET
@@ -33,6 +33,7 @@ public class drugaApi {
     @Produces("text/plain")
     public String test() {
         try {
+            httpClient = ClientBuilder.newClient();
             return httpClient
                     .target("localhost:8080/v1/prvaTest/discovery")
                     .request().get(new GenericType<String>() {
@@ -40,7 +41,8 @@ public class drugaApi {
         }
         catch (WebApplicationException | ProcessingException e) {
             //return
-            throw new InternalServerErrorException(e);
+            return "neki še ni ok!";
+            //throw new InternalServerErrorException(e);
         }
     }
 
