@@ -10,7 +10,6 @@ import javax.ws.rs.core.Response;
 // -> nek id + conzola se sportsti
 // -p 8080:8080 preslika porte, da je možen dostop iz hosta
 
-@RequestScoped
 @Path("prvaTest")
 public class prvaApi {
     @GET
@@ -20,8 +19,10 @@ public class prvaApi {
     }
 
     @GET
+    @Produces("text/plain")
     @Path("discovery")
     public String disc() {
+
         return "Hello from module PRVA!";
     }
 }
