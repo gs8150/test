@@ -63,12 +63,13 @@ public class drugaApi {
             //        .request(MediaType.TEXT_PLAIN)
             //        .get(String.class);
 
-            URL myurl = new URL("http://localhost:8080/v1/prvaTest/discovery\"");
+            URL myurl = new URL("http://localhost:8080/v1/prvaTest/discovery");
             HttpURLConnection con = (HttpURLConnection) myurl.openConnection();
 
             con.setRequestMethod("GET");
 
             StringBuilder content = new StringBuilder();
+            content.append("What I Get: ");
 
             try (BufferedReader in = new BufferedReader(
                     new InputStreamReader(con.getInputStream()))) {
