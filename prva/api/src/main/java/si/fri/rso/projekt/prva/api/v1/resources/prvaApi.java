@@ -17,6 +17,7 @@ public class prvaApi {
         return "Hello from kumuluze. its working!";
     }
 
+    @GET
     @Path("discovery")
     public String disc() {
         return "Hello from module PRVA!";
