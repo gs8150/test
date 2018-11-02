@@ -4,6 +4,7 @@ package si.fri.rso.projekt.druga.api.v1.resources;
 
 import si.fri.rso.projekt.druga.services.drugaBean;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.ws.rs.*;
@@ -11,7 +12,7 @@ import javax.ws.rs.core.Response;
 import java.util.logging.Logger;
 
 @Path("drugaTest")
-@RequestScoped
+@ApplicationScoped
 public class drugaApi {
 
     private Logger log = Logger.getLogger(drugaApi.class.getName());
