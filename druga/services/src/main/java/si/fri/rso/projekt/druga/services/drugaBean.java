@@ -33,7 +33,8 @@ public class drugaBean {
                     .get(String.class);
         }
         catch (WebApplicationException | ProcessingException e) {
-            throw new InternalServerErrorException(e.getMessage());
+            //throw new InternalServerErrorException(e.getMessage());
+            return e.getMessage();
         }
     }
 
