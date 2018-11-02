@@ -3,6 +3,7 @@ package si.fri.rso.projekt.prva.api.v1.resources;
 import org.glassfish.jersey.process.internal.RequestScoped;
 import si.fri.rso.projekt.prva.services.prvaBean;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
@@ -12,6 +13,7 @@ import javax.ws.rs.core.Response;
 // -> nek id + conzola se sportsti
 // -p 8080:8080 preslika porte, da je možen dostop iz hosta
 
+@ApplicationScoped
 @Path("prvaTest")
 public class prvaApi {
 
