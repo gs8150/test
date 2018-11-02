@@ -29,7 +29,6 @@ public class drugaApi {
 
     @GET
     @Path("url")
-    @Produces("text/plain")
     public Response test() {
         String response = drugaBean.getMessage();
         return Response.status(Response.Status.OK).entity(response).build();
@@ -37,9 +36,9 @@ public class drugaApi {
 
     @GET
     @Path("url2")
-    @Produces("text/plain")
-    public String test2() {
-        return "dela!";
+    public Response test2() {
+        String response = drugaBean.getMessage2();
+        return Response.status(Response.Status.OK).entity(response).build();
 
     }
 }

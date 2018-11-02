@@ -36,4 +36,8 @@ public class drugaBean {
             throw new InternalServerErrorException(e.getMessage());
         }
     }
+
+    public String getMessage2() {
+        return "Hello from module DRUGA!";
+    }
 }
