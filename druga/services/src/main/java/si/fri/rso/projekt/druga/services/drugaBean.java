@@ -1,6 +1,7 @@
 package si.fri.rso.projekt.druga.services;
 
 import javax.annotation.PostConstruct;
+import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.ws.rs.InternalServerErrorException;
@@ -8,13 +9,15 @@ import javax.ws.rs.ProcessingException;
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.core.GenericType;
-import javax.ws.rs.core.Response;
+import java.util.logging.Logger;
 
-@RequestScoped
+
+@ApplicationScoped
 public class drugaBean {
 
     private Client httpClient;
+
+    private Logger log = Logger.getLogger(drugaBean.class.getName());
 
     @PostConstruct
     private void init() {
