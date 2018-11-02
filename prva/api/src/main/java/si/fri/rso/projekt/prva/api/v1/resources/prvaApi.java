@@ -8,11 +8,6 @@ import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 
-//dont forget to run using this command
-//docker run -d -p 8080:8080
-// -> nek id + conzola se sportsti
-// -p 8080:8080 preslika porte, da je možen dostop iz hosta
-
 @ApplicationScoped
 @Path("prvaTest")
 public class prvaApi {
@@ -32,6 +27,5 @@ public class prvaApi {
 
         String returnMsg = prvaBean.getMessage();
         return Response.status(Response.Status.OK).entity(returnMsg).build();
-        //return null;
     }
 }

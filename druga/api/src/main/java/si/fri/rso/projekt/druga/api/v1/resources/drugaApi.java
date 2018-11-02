@@ -16,10 +16,8 @@ public class drugaApi {
 
     private Logger log = Logger.getLogger(drugaApi.class.getName());
 
-
     @Inject
     private drugaBean drugaBean;
-
 
     @GET
     @Produces("text/plain")

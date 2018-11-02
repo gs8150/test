@@ -1,7 +1,6 @@
 package si.fri.rso.projekt.prva.services;
 
 import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.context.Dependent;
 import java.util.logging.Logger;
 
 @ApplicationScoped
