@@ -12,7 +12,7 @@ import javax.ws.rs.core.Response;
 import java.util.logging.Logger;
 
 @Path("drugaTest")
-@ApplicationScoped
+@RequestScoped
 public class drugaApi {
 
     private Logger log = Logger.getLogger(drugaApi.class.getName());

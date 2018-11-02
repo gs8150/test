@@ -1,14 +1,14 @@
 package si.fri.rso.projekt.prva.api.v1.resources;
 
-import org.glassfish.jersey.process.internal.RequestScoped;
 import si.fri.rso.projekt.prva.services.prvaBean;
 
 import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 
-@ApplicationScoped
+@RequestScoped
 @Path("prvaTest")
 public class prvaApi {
 
