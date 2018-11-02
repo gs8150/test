@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
         <module name="druga-api" />
+        <module name="druga-services" />
         <module name="model" />
         <module name="services" />
       </profile>
