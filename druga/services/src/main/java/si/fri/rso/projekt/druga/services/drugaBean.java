@@ -20,7 +20,7 @@ public class drugaBean {
 
     private Logger log = Logger.getLogger(drugaBean.class.getName());
 
-    //@Inject
+    @Inject
     @DiscoverService("rso-prva")
     private String baseUrl;
    // private Optional<String> baseUrl;
@@ -52,6 +52,7 @@ public class drugaBean {
                 return e.getMessage();
             }
         //}
+
 
        // return "baseUrl is not present!";
     }
