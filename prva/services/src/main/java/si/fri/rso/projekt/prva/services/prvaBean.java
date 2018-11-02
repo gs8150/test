@@ -5,7 +5,6 @@ import javax.enterprise.context.Dependent;
 import java.util.logging.Logger;
 
 @ApplicationScoped
-@Dependent
 public class prvaBean {
 
     private Logger log = Logger.getLogger(prvaBean.class.getName());
