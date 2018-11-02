@@ -27,8 +27,12 @@ public class drugaBean {
     public String getMessage() {
         try {
 
-            return httpClient
+            /*return httpClient
                     .target("http://localhost:8080/v1/prvaTest/discovery")
+                    .request()
+                    .get(String.class);*/
+            return httpClient
+                    .target("http://192.168.1.135:8080/v1/prvaTest/discovery")
                     .request()
                     .get(String.class);
         }
