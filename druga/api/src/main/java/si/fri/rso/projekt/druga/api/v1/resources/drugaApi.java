@@ -58,12 +58,12 @@ public class drugaApi {
 
                     });  //vrne org.glassfish.jersey.client.JerseyInvocation$Builder@2c3d48c7   */
 
-            //return httpClient
-            //        .target("http://localhost:8080/v1/prvaTest/discovery")
-            //        .request(MediaType.TEXT_PLAIN)
-            //        .get(String.class);
+            return httpClient
+                    .target("http://localhost:8080/v1/prvaTest/discovery")
+                    .request(MediaType.TEXT_PLAIN)
+                    .get(String.class);
 
-            URL myurl = new URL("http://localhost:8080/v1/prvaTest");
+            /*URL myurl = new URL("http://localhost:8080/v1/prvaTest");
             HttpURLConnection con = (HttpURLConnection) myurl.openConnection();
 
             con.setRequestMethod("GET");
@@ -87,14 +87,14 @@ public class drugaApi {
                 throw new InternalServerErrorException(e.getMessage());
             }
 
-            return content.toString();
+            return content.toString();*/
 
         }
-        //catch (WebApplicationException | ProcessingException  | Exception e) {
-        catch (Exception e) {
+        catch (WebApplicationException | ProcessingException  e) {
+        //catch (Exception e) {
             //return
             //return "neki še ni ok!!!";
-            throw new InternalServerErrorException(e.getMessage());
+            throw new InternalServerErrorException("neki še ni ok" + e.getMessage());
         }
     }
 

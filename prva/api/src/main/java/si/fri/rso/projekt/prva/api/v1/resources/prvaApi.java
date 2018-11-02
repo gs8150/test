@@ -1,7 +1,9 @@
 package si.fri.rso.projekt.prva.api.v1.resources;
 
 import org.glassfish.jersey.process.internal.RequestScoped;
+import si.fri.rso.projekt.prva.services.prvaBean;
 
+import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 
@@ -12,6 +14,10 @@ import javax.ws.rs.core.Response;
 
 @Path("prvaTest")
 public class prvaApi {
+
+    @Inject
+    private prvaBean prvaBean;
+
     @GET
     @Produces("text/plain")
     public String hello() {
@@ -21,8 +27,9 @@ public class prvaApi {
     @GET
     @Produces("text/plain")
     @Path("discovery")
-    public String disc() {
+    public Response disc() {
 
-        return "Hello from module PRVA!";
+        String returnMsg = prvaBean.getMessage();
+        return Response.status(Response.Status.OK).entity(returnMsg).build();
     }
 }

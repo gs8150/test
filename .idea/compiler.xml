@@ -9,6 +9,7 @@
         <module name="api" />
         <module name="druga-api" />
         <module name="model" />
+        <module name="services" />
       </profile>
     </annotationProcessing>
   </component>
