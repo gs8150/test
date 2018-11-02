@@ -43,6 +43,6 @@ public class drugaBean {
     }
 
     public String getMessage2() {
-        return "Hello from module DRUGA!";
+        return "Hello from module DRUGA !";
     }
 }
