@@ -23,7 +23,7 @@ public class drugaApi {
     @GET
     @Produces("text/plain")
     public String hello() {
-        return "Hello from kumuluze. its working!";
+        return "Hello from kumuluze. its working!!!";
     }
 
     @GET
