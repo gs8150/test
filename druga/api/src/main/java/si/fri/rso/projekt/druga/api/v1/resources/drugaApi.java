@@ -7,6 +7,7 @@ import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.MediaType;
 import java.util.logging.Logger;
 
@@ -49,8 +50,8 @@ public class drugaApi {
 
             return httpClient
                     .target("http://localhost:8080/v1/prvaTest/discovery")
-                    .request(MediaType.TEXT_PLAIN)
-                    .get(String.class);
+                    .request()
+                    .get(new GenericType<String>(){});
 
             /*URL myurl = new URL("http://localhost:8080/v1/prvaTest");
             HttpURLConnection con = (HttpURLConnection) myurl.openConnection();

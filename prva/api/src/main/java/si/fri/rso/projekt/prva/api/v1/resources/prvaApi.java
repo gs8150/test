@@ -27,7 +27,6 @@ public class prvaApi {
     }
 
     @GET
-    @Produces("text/plain")
     @Path("discovery")
     public Response disc() {
 
