@@ -33,5 +33,6 @@ public class prvaApi {
 
         String returnMsg = prvaBean.getMessage();
         return Response.status(Response.Status.OK).entity(returnMsg).build();
+        //return null;
     }
 }

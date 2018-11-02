@@ -1,31 +1,22 @@
 package si.fri.rso.projekt.druga.api.v1.resources;
 
 //import com.kumuluz.ee.discovery.annotations.DiscoverService;
-import org.glassfish.jersey.process.internal.RequestScoped;
-import si.fri.rso.projekt.druga.api.v1.drugaApplication;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
-import javax.inject.Provider;
 import javax.ws.rs.*;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
-import java.net.URL;
-import java.util.Optional;
+import java.util.logging.Logger;
 
 @Path("drugaTest")
 public class drugaApi {
+
+    private Logger log = Logger.getLogger(drugaApi.class.getName());
+
+    @Inject
+    private drugaApi customersBean;
 
     private Client httpClient;
 
@@ -33,8 +24,6 @@ public class drugaApi {
     private void init() {
         httpClient = ClientBuilder.newClient();
     }
-
-    si.fri.rso.projekt.druga.api.v1.drugaApplication drugaApplication;
 
     @GET
     @Produces("text/plain")
@@ -94,6 +83,7 @@ public class drugaApi {
         //catch (Exception e) {
             //return
             //return "neki še ni ok!!!";
+            log.severe(e.getMessage());
             throw new InternalServerErrorException("neki še ni ok" + e.getMessage());
         }
     }
