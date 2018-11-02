@@ -22,8 +22,8 @@ public class drugaBean {
 
     @Inject
     @DiscoverService("rso-prva")
-    private String baseUrl;
-   // private Optional<String> baseUrl;
+    //private String baseUrl;
+    private Optional<String> baseUrl;
 
     @PostConstruct
     private void init() {
@@ -31,7 +31,7 @@ public class drugaBean {
     }
 
     public String getMessage() {
-        //if(baseUrl.isPresent()) {
+        if(baseUrl.isPresent()) {
             try {
 
                 /*return httpClient
@@ -51,10 +51,10 @@ public class drugaBean {
                 //throw new InternalServerErrorException(e.getMessage());
                 return e.getMessage();
             }
-        //}
+        }
 
 
-       // return "baseUrl is not present!";
+        return "baseUrl is not present!";
     }
 
     public String getMessage2() {
