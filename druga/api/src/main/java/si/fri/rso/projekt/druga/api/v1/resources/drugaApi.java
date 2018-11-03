@@ -55,4 +55,12 @@ public class drugaApi {
         String response = "OK";
         return Response.status(Response.Status.OK).entity(response).build();
     }
+
+    @GET
+    @Path("enable")
+    public Response test5() {
+        drugaBean.setConfig(true);
+        String response = "OK";
+        return Response.status(Response.Status.OK).entity(response).build();
+    }
 }

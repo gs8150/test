@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="422d59bf-3a92-426e-9e06-eb7008d94346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/druga/services/src/main/java/si/fri/rso/projekt/druga/services/configuration/AppProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druga/api/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/druga/api/src/main/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druga/services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/druga/services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druga/services/src/main/java/si/fri/rso/projekt/druga/services/drugaBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/druga/services/src/main/java/si/fri/rso/projekt/druga/services/drugaBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prva/api/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/prva/api/src/main/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prva/services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prva/services/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/prva/target/" />
@@ -61,7 +55,7 @@
         <counts>
           <entry key="Dockerfile" value="42" />
           <entry key="config,yaml" value="15" />
-          <entry key="java" value="2181" />
+          <entry key="java" value="2197" />
           <entry key="txt" value="294" />
           <entry key="xml" value="261" />
           <entry key="yaml" value="26" />
@@ -71,7 +65,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="42" />
-          <entry key="JAVA" value="2181" />
+          <entry key="JAVA" value="2197" />
           <entry key="PLAIN_TEXT" value="294" />
           <entry key="XML" value="261" />
           <entry key="YAML" value="337" />
@@ -81,11 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+            <state relative-caret-position="344">
+              <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/druga/services/src/main/java/si/fri/rso/projekt/druga/services/drugaBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="72" column="38" lean-forward="true" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+            <state relative-caret-position="-355">
+              <caret line="34" column="18" lean-forward="true" selection-start-line="33" selection-end-line="34" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#520#521#0" expanded="true" />
@@ -200,8 +194,8 @@
         <option value="$PROJECT_DIR$/prva/services/pom.xml" />
         <option value="$PROJECT_DIR$/druga/services/pom.xml" />
         <option value="$PROJECT_DIR$/druga/services/src/main/java/si/fri/rso/projekt/druga/services/configuration/AppProperties.java" />
-        <option value="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java" />
         <option value="$PROJECT_DIR$/druga/services/src/main/java/si/fri/rso/projekt/druga/services/drugaBean.java" />
+        <option value="$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java" />
       </list>
     </option>
   </component>
@@ -303,7 +297,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541249379633" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541250222730" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/prva/api/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/druga" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -345,14 +339,7 @@
       <workItem from="1540927501922" duration="6565000" />
       <workItem from="1540993238869" duration="13151000" />
       <workItem from="1541069705980" duration="20219000" />
-      <workItem from="1541167419587" duration="25071000" />
-    </task>
-    <task id="LOCAL-00037" summary="Added Discovery support using Etcd (static)">
-      <created>1541078354483</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1541078354483</updated>
+      <workItem from="1541167419587" duration="25890000" />
     </task>
     <task id="LOCAL-00038" summary="Added Discovery support using Etcd (static)">
       <created>1541079061218</created>
@@ -690,11 +677,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541246783763</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Added ETCD Discovery">
+      <created>1541249401418</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1541249401419</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74758000" />
+    <option name="totallyTimeSpent" value="75577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -709,7 +703,7 @@
     <frame x="148" y="0" width="1698" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -723,7 +717,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32977462" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993895" weight="0.41399762" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4993895" visible="true" weight="0.41399762" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.3594306" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32858837" />
@@ -938,16 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/druga/services/src/main/java/si/fri/rso/projekt/druga/services/configuration/AppProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -961,8 +945,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/druga/services/src/main/java/si/fri/rso/projekt/druga/services/drugaBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="72" column="38" lean-forward="true" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+        <state relative-caret-position="-355">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="33" selection-end-line="34" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
@@ -971,6 +955,16 @@
             <element signature="e#1826#1827#0" expanded="true" />
             <element signature="e#2220#2221#0" expanded="true" />
             <element signature="e#2278#2279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/druga/api/src/main/java/si/fri/rso/projekt/druga/api/v1/resources/drugaApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
