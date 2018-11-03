@@ -22,12 +22,12 @@
             <artifactId>kumuluzee-jax-rs-jersey</artifactId>
             <version>3.0.0</version>
         </dependency>
-
         <dependency>
             <groupId>com.kumuluz.ee.rest</groupId>
             <artifactId>kumuluzee-rest-core</artifactId>
             <version>1.2.3</version>
         </dependency>
+
     </dependencies>
 
 </project>

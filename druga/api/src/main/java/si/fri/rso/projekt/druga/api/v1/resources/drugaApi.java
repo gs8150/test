@@ -40,4 +40,19 @@ public class drugaApi {
         return Response.status(Response.Status.OK).entity(response).build();
 
     }
+
+    @GET
+    @Path("service")
+    public Response test3() {
+        String response = drugaBean.readConfig();
+        return Response.status(Response.Status.OK).entity(response).build();
+    }
+
+    @GET
+    @Path("disable")
+    public Response test4() {
+        drugaBean.setConfig(false);
+        String response = "OK";
+        return Response.status(Response.Status.OK).entity(response).build();
+    }
 }
