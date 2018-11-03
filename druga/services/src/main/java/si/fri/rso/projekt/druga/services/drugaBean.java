@@ -68,7 +68,7 @@ public class drugaBean {
             try {
 
                 return httpClient
-                        .target("http://192.168.1.135:8080/v1/prvaTest/discovery")
+                        .target("http://192.168.1.135:8081/v1/prvaTest/discovery")
                         .request()
                         .get(String.class);
             }
