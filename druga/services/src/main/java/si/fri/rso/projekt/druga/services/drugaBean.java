@@ -28,9 +28,9 @@ public class drugaBean {
     private Client httpClient;
 
     @Inject
-    @DiscoverService("rso-prva")
+    @DiscoverService(value = "rso-prva", version = "1.0.1", environment = "dev")
     //private String baseUrl;
-    private Optional<WebTarget> baseUrl;
+    private Optional<String> baseUrl;
 
     @PostConstruct
     private void init() {
@@ -50,7 +50,7 @@ public class drugaBean {
                         .request()
                         .get(String.class);*/
                return httpClient
-                        .target(baseUrl + "/v1/prvaTest/discovery")
+                        .target(baseUrl.get() + "/v1/prvaTest/discovery")
                         .request()
                         .get(String.class);
             }
