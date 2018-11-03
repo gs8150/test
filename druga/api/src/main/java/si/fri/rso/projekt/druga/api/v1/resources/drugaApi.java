@@ -42,6 +42,14 @@ public class drugaApi {
     }
 
     @GET
+    @Path("url3")
+    public Response test22() {
+        String response = drugaBean.getMessage22();
+        return Response.status(Response.Status.OK).entity(response).build();
+
+    }
+
+    @GET
     @Path("service")
     public Response test3() {
         String response = drugaBean.readConfig();

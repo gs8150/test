@@ -64,6 +64,20 @@ public class drugaBean {
         return "baseUrl is not present!";
     }
 
+    public String getMessage22() {
+            try {
+
+                return httpClient
+                        .target("http://192.168.1.135:8080/v1/prvaTest/discovery")
+                        .request()
+                        .get(String.class);
+            }
+            catch (WebApplicationException | ProcessingException e) {
+                //throw new InternalServerErrorException(e.getMessage());
+                return e.getMessage();
+            }
+    }
+
     public String getMessage2() {
         return "Hello from module DRUGA !";
     }
