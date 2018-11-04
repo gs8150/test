@@ -28,4 +28,34 @@ public class prvaApi {
         String returnMsg = prvaBean.getMessage();
         return Response.status(Response.Status.OK).entity(returnMsg).build();
     }
+
+    @GET
+    @Path("url")
+    public Response test() {
+        String response = prvaBean.getMessageDiscovery();
+        return Response.status(Response.Status.OK).entity(response).build();
+
+    }
+
+    @GET
+    @Path("service")
+    public Response service() {
+        return Response.status(Response.Status.OK).entity(prvaBean.readConfig()).build();
+    }
+
+    @GET
+    @Path("disable")
+    public Response test4() {
+        prvaBean.setConfig(false);
+        String response = "OK";
+        return Response.status(Response.Status.OK).entity(response).build();
+    }
+
+    @GET
+    @Path("enable")
+    public Response test5() {
+        prvaBean.setConfig(true);
+        String response = "OK";
+        return Response.status(Response.Status.OK).entity(response).build();
+    }
 }

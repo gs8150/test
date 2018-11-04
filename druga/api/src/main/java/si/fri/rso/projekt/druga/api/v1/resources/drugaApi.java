@@ -43,7 +43,7 @@ public class drugaApi {
 
     @GET
     @Path("url3")
-    public Response test22() {
+    public Response readByStaticIp() {
         String response = drugaBean.getMessage22();
         return Response.status(Response.Status.OK).entity(response).build();
 

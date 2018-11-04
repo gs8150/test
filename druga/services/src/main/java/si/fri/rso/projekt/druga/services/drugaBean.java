@@ -28,7 +28,7 @@ public class drugaBean {
     private Client httpClient;
 
     @Inject
-    @DiscoverService(value = "rso-prva", version = "1.0.0", environment = "dev")
+    @DiscoverService(value = "rso-prva", version = "1.0.1", environment = "dev")
     //private String baseUrl;
     private Optional<String> baseUrl;
 
