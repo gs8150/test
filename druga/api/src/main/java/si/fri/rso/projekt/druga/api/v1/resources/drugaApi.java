@@ -2,9 +2,8 @@ package si.fri.rso.projekt.druga.api.v1.resources;
 
 //import com.kumuluz.ee.discovery.annotations.DiscoverService;
 
-import si.fri.rso.projekt.druga.services.drugaBean;
+import si.fri.rso.projekt.druga.services.beans.drugaBean;
 
-import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.ws.rs.*;
@@ -70,5 +69,27 @@ public class drugaApi {
         drugaBean.setConfig(true);
         String response = "OK";
         return Response.status(Response.Status.OK).entity(response).build();
+    }
+
+    @GET
+    @Path("setIp1")
+    public Response setIp1() {
+        drugaBean.setIp("http://localhost:8081");
+        String response = "OK";
+        return Response.status(Response.Status.OK).entity(response).build();
+    }
+
+    @GET
+    @Path("setIp2")
+    public Response setIp2() {
+        drugaBean.setIp("http://localhost:8082");
+        String response = "OK";
+        return Response.status(Response.Status.OK).entity(response).build();
+    }
+
+    @GET
+    @Path("getIp")
+    public Response getIp() {
+        return Response.status(Response.Status.OK).entity(drugaBean.getIp()).build();
     }
 }

@@ -1,8 +1,7 @@
 package si.fri.rso.projekt.prva.api.v1.resources;
 
-import si.fri.rso.projekt.prva.services.prvaBean;
+import si.fri.rso.projekt.prva.services.beans.prvaBean;
 
-import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.ws.rs.*;

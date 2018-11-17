@@ -11,6 +11,19 @@ public class AppProperties {
     @ConfigValue(value = "external-services.enabled", watch = true)
     private boolean externalServicesEnabled;
 
+    @ConfigValue(value = "external-services.baseurl", watch = true)
+    private String ipAddress;
+
+
+    public String getIpAddress() {
+        return ipAddress;
+    }
+
+    public void setIpAddress(String ipAddress) {
+        this.ipAddress = ipAddress;
+    }
+
+
 
     public boolean isExternalServicesEnabled() {
         return externalServicesEnabled;
